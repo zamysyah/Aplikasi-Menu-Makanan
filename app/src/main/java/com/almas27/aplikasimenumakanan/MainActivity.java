@@ -54,6 +54,5 @@ public class MainActivity extends AppCompatActivity {
                 "Spaghetti adalah makanan khas Italia yang terbuat dari tepung terigu yang dibentuk menjadi pasta dan ditambah dengan berbagai macam bumbu. Spaghetti biasanya disajikan dengan keju parmesan dan daging sapi.",
                 R.drawable.spaghetti));
     }
-
-
+    
 }
