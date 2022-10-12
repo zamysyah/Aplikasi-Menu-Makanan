@@ -32,6 +32,10 @@ public class MainActivity extends AppCompatActivity {
                 "Rp. 10.000",
                 "Corn Dog adalah makanan yang terbuat dari daging sapi yang digoreng dan dibungkus dengan tepung roti yang digoreng kering. Corn Dog biasanya disajikan dengan saus ketchup dan saus mayonaise.",
                 R.drawable.corndog));
+        listMakanan.add(new Kuliner("French Fries",
+                "Rp. 15.000",
+                "French Fries adalah makanan yang terbuat dari kentang yang digoreng dan disajikan dengan saus ketchup dan saus mayonaise.",
+                R.drawable.frenchfries));
         listMakanan.add(new Kuliner("Mendoan",
                 "Rp. 5.000",
                 "Mendoan adalah makanan khas Indonesia yang terbuat dari tempe yang dibalut dengan tepung beras dan digoreng. Mendoan biasanya disajikan dengan kecap manis dan cabai hijau.",
@@ -52,10 +56,6 @@ public class MainActivity extends AppCompatActivity {
                 "Rp. 25.000",
                 "Spaghetti adalah makanan khas Italia yang terbuat dari tepung terigu yang dibentuk menjadi pasta dan ditambah dengan berbagai macam bumbu. Spaghetti biasanya disajikan dengan keju parmesan dan daging sapi.",
                 R.drawable.spaghetti));
-        listMakanan.add(new Kuliner("Sushi",
-                "Rp. 30.000",
-                "Sushi adalah makanan khas Jepang yang terbuat dari nasi yang dibentuk menjadi bulat dan ditambah dengan berbagai macam bumbu. Sushi biasanya disajikan dengan ikan dan sayuran.",
-                R.drawable.sushi));
 
     }
     
