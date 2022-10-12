@@ -52,6 +52,10 @@ public class MainActivity extends AppCompatActivity {
                 "Rp. 25.000",
                 "Spaghetti adalah makanan khas Italia yang terbuat dari tepung terigu yang dibentuk menjadi pasta dan ditambah dengan berbagai macam bumbu. Spaghetti biasanya disajikan dengan keju parmesan dan daging sapi.",
                 R.drawable.spaghetti));
+        listMakanan.add(new Kuliner("Bakso",
+                "Rp. 15.000",
+                "Bakso adalah makanan khas Indonesia yang dibuat dari campuran daging sapi dan tepung tapioka. Bakso biasanya disajikan dengan kuah kental dan sayuran dengan tambahan mie.",
+                R.drawable.bakso));
     }
     
 }
