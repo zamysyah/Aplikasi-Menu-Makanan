@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
         rec_Makanan = findViewById(R.id.rec_Makanan);
         initData();
 
-        // memanggil class KulinerAdapter agar menu muncul
         rec_Makanan.setAdapter(new KulinerAdapter(listMakanan));
         rec_Makanan.setLayoutManager(new LinearLayoutManager(this));
     }
@@ -35,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 R.drawable.corndog));
         listMakanan.add(new Kuliner("Mendoan",
                 "Rp. 5.000",
-                "Mendoan adalah makanan khas Indonesia yang terbuat dari tempe yang dibalu-balut dengan tepung beras dan digoreng. Mendoan biasanya disajikan dengan kecap manis dan cabai hijau.",
+                "Mendoan adalah makanan khas Indonesia yang terbuat dari tempe yang dibalut dengan tepung beras dan digoreng. Mendoan biasanya disajikan dengan kecap manis dan cabai hijau.",
                 R.drawable.mendoan));
         listMakanan.add(new Kuliner("Mie Goreng",
                 "Rp. 15.000",
