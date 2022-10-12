@@ -32,6 +32,10 @@ public class MainActivity extends AppCompatActivity {
                 "Rp. 10.000",
                 "Corn Dog adalah makanan yang terbuat dari daging sapi yang digoreng dan dibungkus dengan tepung roti yang digoreng kering. Corn Dog biasanya disajikan dengan saus ketchup dan saus mayonaise.",
                 R.drawable.corndog));
+        listMakanan.add(new Kuliner("French Fries",
+                "Rp. 15.000",
+                "French Fries adalah makanan yang terbuat dari kentang yang digoreng dan disajikan dengan saus ketchup dan saus mayonaise.",
+                R.drawable.frenchfries));
         listMakanan.add(new Kuliner("Mendoan",
                 "Rp. 5.000",
                 "Mendoan adalah makanan khas Indonesia yang terbuat dari tempe yang dibalut dengan tepung beras dan digoreng. Mendoan biasanya disajikan dengan kecap manis dan cabai hijau.",
